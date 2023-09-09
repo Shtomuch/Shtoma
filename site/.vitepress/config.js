@@ -2,11 +2,11 @@ import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Імя Студента",
+  title: "Shtoma Denys",
   description: "Завдання Ім'я Студента",
 
   // replace knu-template with name of your repository
-  base: "/knu-template/",
+  base: "/Shtoma/",
 
   themeConfig: {
     nav: [{ text: "Лабораторні", link: "/labs/1" }],
