@@ -11,13 +11,15 @@ export default defineConfig({
   themeConfig: {
     nav: [{ text: "Лабораторні", link: "/labs/1" }],
 
-     sidebar: [
+    sidebar: [
       {
         text: "Лабораторні роботи",
         items: [
           { text: "Лабораторна робота №1", link: "/labs/1" },
           { text: "Лабораторна робота №2", link: "/labs/2" } // Додано нову сторінку
         ],
+      },
+    ],
 
     // socialLinks: [
     //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
